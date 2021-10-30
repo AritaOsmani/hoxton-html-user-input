@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="form-section">
+            <h1 class="header">Hey there!</h1>
+
+            <form action="C:\Users\Admin\OneDrive\Desktop\Hoxton\Practice\hoxton-html-user-input\external-page.html" method="post" >
+                <label class="name">
+                    What is your name?
+                   <input type="text" placeholder="Enter your name" required maxlength="10">
+                </label>
+                <label class="email-address">
+                    What is your email address?
+                    <input type="email" placeholder="Enter your email address" required>
+                </label>
+                <label class="services">
+                    What services are you looking for?
+                    <select name="service-menu" id="" aria-placeholder="Choose a service" required>
+                        <option value="service-intro" hidden >Choose a service</option>
+                        <option value="sv1">Service 1</option>
+                        <option value="sv2">Service 2</option>
+                        <option value="sv3">Service 3</option>
+                        <option value="sv4">Service 4</option>
+                        <option value="sv5">Service 5</option>
+                    </select>
+                </label>
+                <label class="budget">
+                    What is your budget?
+                    <select name="budget-menu" id="" required >
+                        <option  value="budget-intro" disabled selected hidden>Select budget</option>
+                        <option value="fifty">50$</option>
+                        <option value="hundred">100$</option>
+                        <option value="five-hundred">500$</option>
+                        <option value="thousand">1000$</option>
+                    </select>
+                </label>
+                <label class="message">
+                    Anything else you'd like to tell us?
+                    <textarea name="" id="" cols="50" rows="4" placeholder="Your message here..."></textarea>
+                </label>
+                <label class="terms-and-cond">
+                    I agree with the T&Cs.
+                    <input type="checkbox" required>
+                </label>
+                
+                <button type="submit" class="submit-button">
+                   <!-- <a href="external-page.html">Submit</a>  -->
+                   Submit
+                </button>
+               
+                
+            </form>
+            
+        </div>
+    </div>
+    
+</body>
+</html>
